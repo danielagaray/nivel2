@@ -17,6 +17,15 @@ switch(nombre){
 	}*/
 
 
-for(var i;i<25;i++){
+/*for(var i;i<25;i++){
 	console.log("Dar un paso");
+}*/
+
+var dias=["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+for(i in dias){
+	if(dias[i]=="Sábado" || dias[i]=="Domingo"){
+		console.log("Atención! es: "+ dias[i]);
+	}
 }
+
